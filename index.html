@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nguyen Tuan Personal Page</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+          <div class="logo">shiga<span>.worksinc.works</span></div>
+          <div class="toggle"></div>
+        </header>
+        <video src="video/Tuyu.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>探索世界</h2> 
+          <h3>EXPLORING THE WOLRD</h3>
+          <p>I'm Shiga Nya, nice to meet you! Thanks for visiting the page! At here you can enjoy the wonderful music from Tuyu by click YT icon or on menu button. (Make sure that you turn on autoplay) I also put some social medias here so you can find me if you wanted to. Thanks for visiting!</p>
+          <a href="#">Explore</a>
+        </div>
+        <ul class="social">
+          <li><a href="https://www.facebook.com/foxnt6678/"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+          <li><a href="https://twitter.com/nguyentuan6678"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+          <li><a href="https://www.instagram.com/canhdongtuyet6678/"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+          <li><a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU"><img src="logo/youtube.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">Home</audio></li>
+          <li><a href="">News</a></li>
+          <li><a href="https://www.youtube.com/watch?v=olWvy0PiLfA">SongBG</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+        })
+      </script>
+
+</body>
+</html>
